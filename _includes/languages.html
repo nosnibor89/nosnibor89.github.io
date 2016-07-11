@@ -1,0 +1,9 @@
+{% for language in site.data.author.languages %} 
+	{% if language.name %} 
+		{% if language.proficiency %}
+			<li>
+			    <i class="fa fa-check"></i> <span class="badge badge-green badge-right-float">{{ language.proficiency }}</span>{{ language.name }}
+			</li>
+		{% endif %} 
+	{% endif %} 
+{% endfor %}

@@ -1,0 +1,9 @@
+{
+	"baseurl": "http://localhost:4000",
+	"favicon": "/assets/img/favicon.png",
+	"cv": 
+	{
+		"title": "Robinson's CV"
+	}
+	
+}

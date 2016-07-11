@@ -1,85 +1,68 @@
-# Site settings
-title: Dong Liang's CV 
-description: ddbullfrog's CV
-favicon: /assets/img/avatar.JPG
-baseurl: https://ddbullfrog.github.io/resumecard
-url: https://ddbullfrog.github.io/resumecard
-rss_url: /pages/atom.xml
-google_analytics: UA-63653234-1
+# Where things are
+source:      .
+destination: ./_site
+plugins_dir:     ./_plugins
+layouts_dir:     ./_layouts
+data_dir: ./_data
+collections: null
 
-# Build settings
-markdown: kramdown
+# Handling Reading
+safe:         false
+include:      [".htaccess"]
+exclude:      []
+keep_files:   [".git", ".svn"]
+encoding:     "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-exclude: [vendor]
+# Filtering Content
+show_drafts: null
+limit_posts: 0
+future:      true
+unpublished: false
 
-# Author settings
-author:
-  name: Dong Liang
-  title: Java Developer
-  address: Auckland, New Zealand
-  email: dongg.liang@gmail.com
-  link: http://ddbullfrog.com
-  weibo:
-  github: ddbullfrog
-  linkedin: ddbullfrog
-  twitter: ddbullfrog
-  gavatar: /resumecard/assets/img/avatar.JPG
-  stackoverflow:
-#  stackoverflow: 4582127
-  workHistory:
-    - work1:
-      company: Finzsoft Solutions Ltd
-      location: Auckland, New Zealand
-      title: Java Developer
-      started: 2014
-      duration: (2014 - Present)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
-    - work2:
-      company: Agfa HealthCare
-      location: Shanghai, China
-      title: Java Developer
-      started: 2012
-      duration: (2012 - 2014)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
-    - work3:
-      company: Citigroup Services and Technology (China) Limited
-      location: Shanghai, China
-      title: Java Developer
-      started: 2009
-      duration: (2009 - 2012)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
-  educationHistory:
-    - education1:
-      organization: Northeastern University
-      location: Shenyang, China
-      degree: Bachelor
-      major: Software Engineering
-      started: 2005
-      duration: (2005 - 2009)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
-  languages:
-    - language1:
-      name: Chinese
-      proficiency: Native
-    - language2:
-      name: English
-      proficiency: Professional
-    - language3:
-      name: Japanese
-      proficiency: Limit
-  programmingSkills:
-    - skill1:
-      name: HTML
-      percentage: 100%
-    - skill2:
-      name: Bootstrap
-      percentage: 90%
-    - skill3:
-      name: JavaScript
-      percentage: 70%
-    - skill4:
-      name: AngularJS
-      percentage: 70%
-    - skill5:
-      name: Java/Java EE
-      percentage: 90%
+# Plugins
+whitelist: []
+gems:      []
+
+# Conversion
+markdown:    kramdown
+highlighter: rouge
+lsi:         false
+excerpt_separator: "\n\n"
+
+# Serving
+detach:  false
+port:    4000
+host:    127.0.0.1
+baseurl: "" # does not include hostname
+
+# Outputting
+permalink:     date
+paginate_path: /page:num
+timezone:      null
+
+quiet:    false
+defaults: []
+
+# Markdown Processors
+rdiscount:
+  extensions: []
+
+redcarpet:
+  extensions: []
+
+kramdown:
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+  coderay:
+    coderay_wrap:              div
+    coderay_line_numbers:      inline
+    coderay_line_number_start: 1
+    coderay_tab_width:         4
+    coderay_bold_every:        10
+    coderay_css:               style

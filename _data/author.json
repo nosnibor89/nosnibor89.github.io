@@ -1,0 +1,100 @@
+
+{
+	"name": "Robinson Marquez",
+	"title": "Fullstack Developer",
+	"address": "Caracas, Venezuela",
+    "email": "nosnibor1989@gmail.com",
+    "github": "nosnibor89",
+    "linkedin": "robinsonmarquez",
+    "twitter": "nosnibor89",
+    "gavatar": "/assets/img/avatar.JPG",
+    "workHistory": [
+        {
+            "company": "Orusys de Venezuela",
+            "location": "Caracas, Venezuela",
+            "title": "Software Developer",
+            "started": "2015",
+            "duration": "(2015 - present)",
+            "description": "E-commerce oriented web application development  through teamwork following the software development methodologies like SCRUM .
+                            Performance testing  and validation of information systems.
+                            Back- End : ASP.NET MVC & Web API , PHP .
+                            Front- End : Bootstrap, Angular JS, JQuery , HTML & CSS, Smarty .
+                            Persistence : Entity Framework , MySQL & PostgreSQL.
+                            Others: Docker, Vagrant, Amazon WS SDK, PayPal SDK.
+                            Other skills:
+                            As a freelancer I have worked on projects related to the following technologies in order to learn from each and bring diversity to my range of knowledge :
+                            PHP laravel
+                            Ruby & Ruby on Rails
+                            NodeJs
+                            AngularJS
+                            MEAN",
+        },
+        {
+            "company": "Taurel & Cia. Sucrs. C.A.",
+            "location": "Caracas, Venezuela",
+            "title": "Technical Support Analyst CNC",
+            "started": "2015",
+            "duration": "(2015 - 2015)",
+            "description": "Management ERP System Oracle JD Edwards: Creating and installing packages, troubleshooting and updates. Using tools such as Oracle Server Manager and Oracle WebLogic.
+                            Basic administration of Oracle Database 11g.
+                            Manage tool based HelpDesk software Numara Trackit using DBMS like MS SQL Server 2012.
+                            Server Management and Web applications.
+                            Basic management of services like ADDC, DHCP and DNS.
+                            Implement virtualization strategies to achieve efficiency in the IT service. Hyper-V Server 2012 R2.",
+        },
+    	{
+    		"company": "Taurel & Cia. Sucrs. C.A.",
+	        "location": "Caracas, Venezuela",
+	        "title": "Technical Support Analyst",
+	        "started": "2011",
+	        "duration": "(2011 - 2015)",
+	        "description": "Provide technical support to users inside and outside the company. Configure, manage and control tool based HelpDesk software Numara Track It using DBMSs like MS SQL Server 2008 and 2012.
+                            Management Software Backup and Restore with Acronis.
+                            Server Management and Web applications.
+                            Basic management services ADDC, DHCP and DNS.
+                            Implement virtualization strategies to achieve efficiency in the IT service. Hyper-V Server 2008 and Hyper-V Server 2012 R2",
+    	},
+    ],
+    "educationHistory": [
+    	{
+    		"organization": "Universidad Alejandro de Humboltd",
+       		"location": "Caracas, Venezuela",
+       		"degree": "Engineer",
+       		"major": "Computing Engineer",
+       		"started": "2013",
+       		"duration": "(2013 - 2015)",
+       		"description": "Basic knowledge infrastructure information systems ( Windows Server , installation and maintenance of applications Backup Data, among others). Initiation in programming and knowledge of some languages ​​.
+                            Basic design of relational databases and basic design of information systems",
+    	},
+        {
+            "organization": "Universidad Alejandro de Humboltd",
+            "location": "Caracas, Venezuela",
+            "degree": "Electronics Technician",
+            "major": "Electronics Technician",
+            "started": "2007",
+            "duration": "(2007 - 2011)",
+            "description": "Understand basic principles of electricity and electronics applied . Digital systems design and programming PIC microcontrollers .",
+        }
+    ],
+    "languages": [
+    	{
+    		"name": "Spanish",
+	        "proficiency": "Native"
+    	},
+        {
+            "name": "English",
+            "proficiency": "Advanced"
+        },
+        {
+            "name": "French",
+            "proficiency": "Basic"
+        }
+    ],
+    "programmingSkills": [
+    	{
+    		"name": "HTML",
+    		 "percentage": "100%"
+    	}
+    ]
+       
+}
