@@ -12,7 +12,7 @@ layout: default
                 Work History
                 </h3>
                 <ul class="timeline">
-                    
+
                     {% include workhistory.html %}
 
                 </ul>
@@ -31,6 +31,58 @@ layout: default
 
         <div class="col-md-4">
 
+          <!-- programmingSkills -->
+          {% if site.data.author.programmingSkills %}
+                <h3 class="title with-icon"><span class="fa fa-code cat-title"></span> Programming Skills</h3>
+
+                {% if site.data.author.programmingSkills %}
+                <div class="grid-block">
+                    <ul class="list-unstyled list-skills">
+                        {% for programmingSkill in site.data.author.programmingSkills %}
+                            <li>
+                                {% if programmingSkill.name %}
+                                    <span class="caption-skill">{{ programmingSkill.name }}</span>
+                                {% endif %}
+                                {% if programmingSkill.percentage %}
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width: {{ programmingSkill.percentage }}">
+                                            <span>{{ programmingSkill.percentage }} </span>
+                                        </div>
+                                    </div>
+                                {% endif %}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
+          {% endif %}
+          <!-- programmingSkills -->
+          <!-- Frameworks -->
+          {% if site.data.author.frameworks %}
+                <h3 class="title with-icon"><span class="fa fa-cogs cat-title"></span> Frameworks</h3>
+
+                {% if site.data.author.frameworks %}
+                <div class="grid-block">
+                    <ul class="list-unstyled list-skills">
+                        {% for framework in site.data.author.frameworks %}
+                            <li>
+                                {% if framework.name %}
+                                    <span class="caption-skill">{{ framework.name }}</span>
+                                {% endif %}
+                                {% if framework.percentage %}
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width: {{ framework.percentage }}">
+                                            <span>{{ framework.percentage }} </span>
+                                        </div>
+                                    </div>
+                                {% endif %}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
+          {% endif %}
+          <!-- Frameworks -->
         <!-- Languages -->
             {% if site.data.author.languages %}
                 <div class="deviter"></div>
@@ -40,7 +92,7 @@ layout: default
                         {% include languages.html %}
                     </ul>
                 </div>
-            {% endif %}            
+            {% endif %}
         <!-- Languages -->
 
         <!-- Location -->

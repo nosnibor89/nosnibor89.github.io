@@ -93,8 +93,42 @@
     "programmingSkills": [
     	{
     		"name": "HTML",
-    		 "percentage": "100%"
+    		 "percentage": "90%"
+    	},
+			{
+    		"name": "Javascript",
+    		 "percentage": "80%"
+    	},
+			{
+    		"name": "PHP",
+    		 "percentage": "80%"
+    	},
+			{
+    		"name": "C#",
+    		 "percentage": "80%"
+    	},
+			{
+    		"name": "Ruby",
+    		 "percentage": "30%"
     	}
-    ]
-       
+    ],
+		"frameworks": [
+			{
+				"name": "Laravel",
+				"percentage": "60%"
+			},
+			{
+				"name": "Asp.Net MVC",
+				"percentage": "70%"
+			},
+			{
+				"name": "Express JS",
+				"percentage": "40%"
+			},
+			{
+				"name": "Bootstrap CSS",
+				"percentage": "90%"
+			}
+		]
+
 }

@@ -1,320 +1,74 @@
 <!DOCTYPE html>
-<html>
-  <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>
-  	
-  		Robinson's CV
-  	
-  </title>
-  <meta name="description" content="">
-
-  <link rel="canonical" href="http://nosnibor89.github.io//">
-
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
-  <link rel="stylesheet" href="https://bootswatch.com/readable/bootstrap.min.css">
-  <link rel="stylesheet" href="http://nosnibor89.github.io//assets/css/resumecard.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-
-  <link rel="icon" type="image/png" href="http://nosnibor89.github.io//assets/img/favicon.png">
-
-  <!-- Google fonts -->
-  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:300' type='text/css'>
-  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' type='text/css'>
-
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
-  <![endif]-->
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
-  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-</head>
-
-
-  <body>
-
-    <div class="header">
-    <div class="container-fluid">
-        <div class="row-fluid">
-
-            <!-- Column -->
-            <div class="col-sm-4">
-                <img src="http://nosnibor89.github.io//assets/img/avatar.JPG" title="Robinson Marquez" alt="Robinson Marquez">
-                <h4>Robinson Marquez</h4>
-                <p>Fullstack Developer</p>
-                <p class="muted"></p>
-                <div class="clearfix"></div>
-            </div>
-
-            <!-- Column -->
-            <div class="col-sm-4 visible-md-block visible-lg-block visible-sm-block">
-                <p><i class="fa fa-envelope-o fa-fw"></i> nosnibor1989@gmail.com </p>
-                <p><i class="fa fa-github fa-fw"></i><a href="//github.com/nosnibor89" target="_blank">  @nosnibor89 </a></p>
-                <p><i class="fa fa-linkedin-square fa-fw"></i> <a href="//linkedin.com/in/robinsonmarquez" target="_blank"> linkedin.com/in/robinsonmarquez </a></p>
-                <p><i class="fa fa-twitter fa-fw"></i> <a href="//twitter.com/nosnibor89" target="_blank">  @nosnibor89 </a></p>
-            </div>
-
-            <!-- Column -->
-            <div class="col-sm-4 visible-md-block visible-lg-block">
-
-                <!-- <a href="#" class="btn btn-info"><i class="icon-file icon-white"></i> Blog </a> -->
-            </div>
-            
-        </div>
-    </div>
-</div>
-
-
-
-    <div class="page-content">
-      <div class="wrapper">
-        <div class="container-fluid">
+---
+layout: default
+---
+<div class="container-fluid">
     <div class="row-fluid">
         <div class="col-md-8">
 
             <!-- Work -->
-            
+            {% if site.data.author.workHistory %}
                 <h3 class="title with-icon">
                 <span class="glyphicon glyphicon-plane cat-title"></span>
                 Work History
                 </h3>
                 <ul class="timeline">
-                    
-                    
-    <li class="timeline-inverted">
-    
-    <div class="timeline-badge info">2015</div>
-    
-    <div class="timeline-panel grid-block">
-        <div class="timeline-heading">
-            
-            <h4 class="timeline-title">Orusys de Venezuela </h4> 
-            <p>
-                <small class="text-muted">
-                
-                    Software Developer
-                
-                </small>
-            </p>
-            <p>
-                <small class="text-muted">
-                
-                    <i class="fa fa-calendar"></i> (2015 - present) |
-                
-                
-                    <i class="fa fa-map-marker"></i>  Caracas, Venezuela
-                
-                </small>
-            </p>
-        </div>
-        <div class="timeline-body">
-            
-            <p>E-commerce oriented web application development  through teamwork following the software development methodologies like SCRUM . Performance testing  and validation of information systems. Back- End : ASP.NET MVC & Web API , PHP . Front- End : Bootstrap, Angular JS, JQuery , HTML & CSS, Smarty . Persistence : Entity Framework , MySQL & PostgreSQL. Others: Docker, Vagrant, Amazon WS SDK, PayPal SDK. Other skills: As a freelancer I have worked on projects related to the following technologies in order to learn from each and bring diversity to my range of knowledge : PHP laravel Ruby & Ruby on Rails NodeJs AngularJS MEAN</p>
-            
-        </div>
-    </div>
-</li>
 
-    <li class="timeline-inverted">
-    
-    <div class="timeline-badge info">2015</div>
-    
-    <div class="timeline-panel grid-block">
-        <div class="timeline-heading">
-            
-            <h4 class="timeline-title">Taurel & Cia. Sucrs. C.A. </h4> 
-            <p>
-                <small class="text-muted">
-                
-                    Technical Support Analyst CNC
-                
-                </small>
-            </p>
-            <p>
-                <small class="text-muted">
-                
-                    <i class="fa fa-calendar"></i> (2015 - 2015) |
-                
-                
-                    <i class="fa fa-map-marker"></i>  Caracas, Venezuela
-                
-                </small>
-            </p>
-        </div>
-        <div class="timeline-body">
-            
-            <p>Management ERP System Oracle JD Edwards: Creating and installing packages, troubleshooting and updates. Using tools such as Oracle Server Manager and Oracle WebLogic. Basic administration of Oracle Database 11g. Manage tool based HelpDesk software Numara Trackit using DBMS like MS SQL Server 2012. Server Management and Web applications. Basic management of services like ADDC, DHCP and DNS. Implement virtualization strategies to achieve efficiency in the IT service. Hyper-V Server 2012 R2.</p>
-            
-        </div>
-    </div>
-</li>
-
-    <li class="timeline-inverted">
-    
-    <div class="timeline-badge info">2011</div>
-    
-    <div class="timeline-panel grid-block">
-        <div class="timeline-heading">
-            
-            <h4 class="timeline-title">Taurel & Cia. Sucrs. C.A. </h4> 
-            <p>
-                <small class="text-muted">
-                
-                    Technical Support Analyst
-                
-                </small>
-            </p>
-            <p>
-                <small class="text-muted">
-                
-                    <i class="fa fa-calendar"></i> (2011 - 2015) |
-                
-                
-                    <i class="fa fa-map-marker"></i>  Caracas, Venezuela
-                
-                </small>
-            </p>
-        </div>
-        <div class="timeline-body">
-            
-            <p>Provide technical support to users inside and outside the company. Configure, manage and control tool based HelpDesk software Numara Track It using DBMSs like MS SQL Server 2008 and 2012. Management Software Backup and Restore with Acronis. Server Management and Web applications. Basic management services ADDC, DHCP and DNS. Implement virtualization strategies to achieve efficiency in the IT service. Hyper-V Server 2008 and Hyper-V Server 2012 R2</p>
-            
-        </div>
-    </div>
-</li>
-
+                    {% include workhistory.html %}
 
                 </ul>
-            
+            {% endif %}
             <!-- Work -->
 
             <!-- Education -->
-                
+                {% if site.data.author.educationHistory %}
                     <h3 class="title with-icon"><span class="fa fa-book cat-title"></span>Education History</h3>
                     <ul class="timeline">
-                 
-<li class="timeline-inverted">
-    
-    <div class="timeline-badge info">2013</div>
-    
-    <div class="timeline-panel grid-block">
-        <div class="timeline-heading">
-            
-            <h4 class="timeline-title">Universidad Alejandro de Humboltd</h4> 
-            <p>
-               <small class="text-muted">
-                
-                    Engineer
-                
-                
-                    , Computing Engineer
-                
-                </small>
-            </p>
-            <p>
-                <small class="text-muted">
-                
-                    <i class="fa fa-calendar"></i> (2013 - 2015) |
-                
-                
-                    <i class="fa fa-map-marker"></i>  Caracas, Venezuela
-                
-                </small>
-            </p>
-        </div>
-        <div class="timeline-body">
-            
-            <p>Basic knowledge infrastructure information systems ( Windows Server , installation and maintenance of applications Backup Data, among others). Initiation in programming and knowledge of some languages ​​. Basic design of relational databases and basic design of information systems</p>
-            
-        </div>
-    </div>
-</li>
-
-<li class="timeline-inverted">
-    
-    <div class="timeline-badge info">2007</div>
-    
-    <div class="timeline-panel grid-block">
-        <div class="timeline-heading">
-            
-            <h4 class="timeline-title">Universidad Simón Bolívar</h4> 
-            <p>
-               <small class="text-muted">
-                
-                    Electronics Technician
-                
-                
-                    , Electronics Technician
-                
-                </small>
-            </p>
-            <p>
-                <small class="text-muted">
-                
-                    <i class="fa fa-calendar"></i> (2007 - 2011) |
-                
-                
-                    <i class="fa fa-map-marker"></i>  Caracas, Venezuela
-                
-                </small>
-            </p>
-        </div>
-        <div class="timeline-body">
-            
-            <p>Understand basic principles of electricity and electronics applied . Digital systems design and programming PIC microcontrollers .</p>
-            
-        </div>
-    </div>
-</li>
-
-
+                {% include education.html %}
                 </ul>
-                
+                {% endif %}
             <!-- Education -->
         </div>
 
         <div class="col-md-4">
 
+          {% if site.data.author.programmingSkills %}
+                <h3 class="title with-icon"><span class="fa fa-code cat-title"></span> Programming Skills</h3>
+        
+                {% if site.data.author.programmingSkills %}
+                <div class="grid-block">
+                    <ul class="list-unstyled list-skills">
+                        {% for programmingSkill in site.data.author.programmingSkills %}
+                            <li>
+                                {% if programmingSkill.name %}
+                                    <span class="caption-skill">{{ programmingSkill.name }}</span>
+                                {% endif %}
+                                {% if programmingSkill.percentage %}
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width: {{ programmingSkill.percentage }}">
+                                            <span>{{ programmingSkill.percentage }} </span>
+                                        </div>
+                                    </div>
+                                {% endif %}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
+            {% endif %}
+
+
+
         <!-- Languages -->
-            
+            {% if site.data.author.languages %}
                 <div class="deviter"></div>
                 <h3 class="title with-icon"><span class="fa fa-globe cat-title"></span> Language Skills</h3>
                 <div class="grid-block">
                     <ul class="list-unstyled list-strip">
-                         
-	 
-		
-			<li>
-			    <i class="fa fa-check"></i> <span class="badge badge-green badge-right-float">Native</span>Spanish
-			</li>
-		 
-	 
- 
-	 
-		
-			<li>
-			    <i class="fa fa-check"></i> <span class="badge badge-green badge-right-float">Advanced</span>English
-			</li>
-		 
-	 
- 
-	 
-		
-			<li>
-			    <i class="fa fa-check"></i> <span class="badge badge-green badge-right-float">Basic</span>French
-			</li>
-		 
-	 
-
-
+                        {% include languages.html %}
                     </ul>
                 </div>
-                        
+            {% endif %}
         <!-- Languages -->
 
         <!-- Location -->
@@ -328,21 +82,3 @@
         </div>
     </div>
 </div>
-
-      </div>
-    </div>
-
-    <div class="footer">
-    <div class="container-fluid">
-        <div class="row-fluid">
-            <div class="col-md-12">
-                Copyright &copy; 2016  - All rights reserved.
-            </div>
-        </div>
-    </div>
-</div>
-
-
-  </body>
-
-</html>
