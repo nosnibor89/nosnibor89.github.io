@@ -128,7 +128,11 @@
 			{
 				"name": "Bootstrap CSS",
 				"percentage": "90%"
-			}
+			},
+            {
+                "name": "AngularJS",
+                "percentage": "70%"
+            }
 		]
 
 }
