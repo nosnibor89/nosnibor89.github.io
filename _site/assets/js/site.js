@@ -5,6 +5,4 @@
   			trigger: 'manual'
   		}).tooltip('show');
 	})
-
-
 })();

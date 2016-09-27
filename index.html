@@ -83,6 +83,36 @@ layout: default
                 {% endif %}
           {% endif %}
           <!-- Frameworks -->
+          <!-- Others -->
+          {% if site.data.author.others %}
+                <h3 class="title with-icon"><span class="fa fa-asterisk cat-title"></span> Others</h3>
+
+                {% if site.data.author.others %}
+                <div class="grid-block">
+                    <ul class="list-unstyled list-skills">
+                        {% for other in site.data.author.others %}
+                            <li>
+                                {% if other.name %}
+                                    <span class="caption-skill">{{ other.name }}</span>
+                                {% endif %}
+                                {% if other.percentage %}
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width: {{ other.percentage }}">
+                                            <span>{{ other.percentage }} </span>
+                                        </div>
+                                    </div>
+                                {% endif %}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
+          {% endif %}
+          <!-- Others -->
+
+        
+
+
         <!-- Languages -->
             {% if site.data.author.languages %}
                 <div class="deviter"></div>

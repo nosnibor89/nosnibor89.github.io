@@ -97,7 +97,7 @@
     	},
 			{
     		"name": "Javascript",
-    		 "percentage": "80%"
+    		 "percentage": "90%"
     	},
 			{
     		"name": "PHP",
@@ -109,18 +109,22 @@
     	},
 			{
     		"name": "Ruby",
-    		 "percentage": "30%"
+    		 "percentage": "10%"
     	}
     ],
 		"frameworks": [
 			{
 				"name": "Laravel",
-				"percentage": "60%"
+				"percentage": "90%"
 			},
 			{
 				"name": "Asp.Net MVC",
 				"percentage": "70%"
 			},
+            {
+                "name": "NodeJs",
+                "percentage": "40%"
+            },
 			{
 				"name": "Express JS",
 				"percentage": "40%"
@@ -133,6 +137,28 @@
                 "name": "AngularJS",
                 "percentage": "70%"
             }
-		]
+		],
+        "others": [
+             {
+                "name": "WordPress",
+                "percentage": "50%"
+            },
+            {
+                 "name": "Amazon SDK",
+                "percentage": "40%"
+            },
+            {
+                 "name": "PayPal SDK",
+                "percentage": "40%"
+            },
+            {
+                "name": "Vagrant",
+                "percentage": "30%"
+            },
+            {
+                "name": "Docker",
+                "percentage": "30%"
+            }
+        ]
 
 }
